@@ -21,7 +21,6 @@ void Met1(int size, float* arr)
 }
 void Met2(int size, float* arr)
 {
-	float min = 2147483647;
 	for (int j = 0; j < size; j++)
 	{
 		int min = j;
