@@ -124,7 +124,7 @@ int main()
 	default:
 		break;
 	}
-	cout << endl<<endl <<"Отсартированный массив:" << endl;
+	cout << endl<<endl <<"Отсортированный массив:" << endl;
 	for (int i = 0; i < size; i++)
 	{
 		cout << arr[i] << "\t";
