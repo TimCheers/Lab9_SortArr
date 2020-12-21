@@ -5,7 +5,6 @@
 using namespace std;
 void Met1(int size, float* arr)
 {
-
 	int key = 0, j = 0;
 	for (int i = 1; i < size; i++)
 	{
@@ -36,7 +35,6 @@ void Met2(int size, float* arr)
 		}
 	}
 }
-
 void Met3(int size, float* arr)
 {
 	float tmp;
@@ -54,14 +52,11 @@ void Met3(int size, float* arr)
 		}
 	}
 }
-
 int main()
 {
 	srand(time(NULL));
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
-
-
 	int size=-1;
 	string typeFill = "слово";
 	while (size <= 0)
